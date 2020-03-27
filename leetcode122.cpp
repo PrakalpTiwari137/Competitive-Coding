@@ -11,8 +11,9 @@ public:
                 forward = back+1;
             }
             else {
-                while(forward+1<prices.size() && prices[forward+1]>prices[forward])
+                while(forward+1<prices.size() && prices[forward+1]>prices[forward]){
                     forward++;
+                }
                 if(prices[forward]>=prices[back]){
                     profit = profit+prices[forward]-prices[back];
                     back = forward+1;
