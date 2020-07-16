@@ -1,2 +1,2 @@
-1. https://leetcode.com/problems/longest-valid-parentheses/
+1. https://leetcode.com/problems/longest-valid-parentheses/  [Dynamic Programming]
 
